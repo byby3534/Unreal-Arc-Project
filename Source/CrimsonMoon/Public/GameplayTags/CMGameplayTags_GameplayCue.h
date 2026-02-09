@@ -1,0 +1,31 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include "NativeGameplayTags.h"
+
+namespace CMGameplayTags
+{
+	#pragma region GameplayCue Tags
+	CRIMSONMOON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(GameplayCue_ContextualAnim);
+	CRIMSONMOON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(GameplayCue_Blade_Hit_Slash);
+	CRIMSONMOON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(GameplayCue_FX_Blade_SuccessfulBlock);
+	CRIMSONMOON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(GameplayCue_FX_Blade_PerfectBlock);
+	CRIMSONMOON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(GameplayCue_Sounds_MeleeHit_Blade);
+	CRIMSONMOON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(GameplayCue_Arcanist_SoulLaser);
+	CRIMSONMOON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(GameplayCue_Sounds_Arcanist_SoulLaser_Start);
+	CRIMSONMOON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(GameplayCue_Sounds_Arcanist_SoulLaser_Loop);
+	CRIMSONMOON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(GameplayCue_Arcanist_SoulSiphon_Hit);
+	CRIMSONMOON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(GameplayCue_Arcanist_SoulSiphon_VFX);
+	CRIMSONMOON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(GameplayCue_Enemy_Eve_Blink);
+	CRIMSONMOON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(GameplayCue_Arcanist_Advent_VFX);
+	CRIMSONMOON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(GameplayCue_Sounds_Arcanist_BaseAttack);
+	CRIMSONMOON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(GameplayCue_Sounds_Arcanist_SpiritFire);
+	CRIMSONMOON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(GameplayCue_Sounds_Arcanist_SoulSiphon);
+	CRIMSONMOON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(GameplayCue_Sounds_Arcanist_Advent_Start);
+	CRIMSONMOON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(GameplayCue_Sounds_Arcanist_Advent_ThunderStrike);
+	
+	CRIMSONMOON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(GameplayCue_Item_Throw_Explode);
+	CRIMSONMOON_API UE_DECLARE_GAMEPLAY_TAG_EXTERN(GameplayCue_Item_Throw_Fire);
+	#pragma endregion
+}
